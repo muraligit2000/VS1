@@ -15,7 +15,7 @@ namespace HSBC.Deposits.Personnel.Vehicle.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            List<string> arrNames = new List<string>() { "Murali", "Krishna" };
+            List<string> arrNames = new List<string>() { "Murali 1", "Krishna 1" };
             return StatusCode(StatusCodes.Status200OK, arrNames);
         }
 
@@ -23,7 +23,7 @@ namespace HSBC.Deposits.Personnel.Vehicle.Controllers
         public async Task<IActionResult> SaveEmployee(int empno, string empname)
         {
             return StatusCode(StatusCodes.Status200OK, 
-                "Welcome " + empname + ", Your employee number is " + empno.ToString());
+                "Welcome " + empname + ", Your employee number : " + empno.ToString());
         }
 
         [HttpPost, Route("post-consultant-data")]
