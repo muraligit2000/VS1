@@ -32,7 +32,7 @@ namespace HSBC.Deposits.Personnel.Vehicle.Controllers
         public async Task<IActionResult> PostConsultantData(EmployeeDTO objEmployee)
         {
             return StatusCode(StatusCodes.Status200OK,
-                "Welcome " + objEmployee.EmpName + ", Your employee number is " + objEmployee.EmpNo.ToString());
+                "Welcome " + objEmployee.EmpName + ", Your employee number : " + objEmployee.EmpNo.ToString());
 
         }
 
