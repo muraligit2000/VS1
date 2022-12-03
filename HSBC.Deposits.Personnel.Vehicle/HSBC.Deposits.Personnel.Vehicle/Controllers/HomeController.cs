@@ -73,5 +73,17 @@ namespace HSBC.Deposits.Personnel.Vehicle.Controllers
             };
             return StatusCode(StatusCodes.Status200OK, objEmployee);
         }
+
+
+        // mcirosoft.entityframeworkcore.tools    mcirosoft.entityframeworkcore.sqlserver
+
+        //        scaffold-dbcontext "data source=DESKTOP-86IH6NM\MSSQLSERVER01;initial catalog=dashboardapp;persist security info=True; Integrated Security=SSPI;" Microsoft.Entityframeworkcore.sqlserver -contextdir context -outputdir domainModels -context "DBContext" -f
+
+
+        //scaffold-dbcontext "data source=DESKTOP-86IH6NM\MSSQLSERVER01;database=dashboardapp;user id=sa;password=Rama123" Microsoft.Entityframeworkcore.sqlserver -contextdir context -outputdir domainModels -context "DBContext" -f
+
+
+        //scaffold-dbcontext "data source=DESKTOP-86IH6NM\MSSQLSERVER01;initial catalog=dashboardapp;persist security info=True; Integrated Security=SSPI;" Microsoft.Entityframeworkcore.sqlserver -contextdir context -outputdir domainModels -context "DBContext" -Schema "dbo" -f
+
     }
 }
