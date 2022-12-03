@@ -1,3 +1,4 @@
+using Data.context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -6,6 +7,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using DataLayer;
+using AutoMapper;
 
 namespace HSBC.Deposits.Personnel.Vehicle
 {
@@ -30,6 +34,23 @@ namespace HSBC.Deposits.Personnel.Vehicle
                     o.AssumeDefaultVersionWhenUnspecified = true;
                 }
                 );
+
+
+            services.AddTransient<IEmployeeRepository, EmployeeRepository>();
+
+            services.AddDbContext<DBContext>(
+                options =>
+                       //.UseLazyLoadingProxies()
+                       options.UseSqlServer("data source=DESKTOP-86IH6NM\\MSSQLSERVER01;initial catalog=dashboardapp;persist security info=True; Integrated Security=SSPI;")
+                );
+
+            var mappingConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new AutoMapperImpl());
+            }
+            );
+            IMapper mapper = mappingConfig.CreateMapper();
+            services.AddSingleton(mapper);
 
             //Swagger Start 
             //TO Enable Swagger in WebAPI

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace HSBC.Deposits.Personnel.Vehicle.Models
 {
-    public class EmployeeDTO
+    public class EmployeeVM
     {
         public int EmpNo { get; set; }
         public string EmpName { get; set; }

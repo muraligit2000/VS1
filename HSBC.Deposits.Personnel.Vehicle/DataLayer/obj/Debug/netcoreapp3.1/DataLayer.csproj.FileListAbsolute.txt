@@ -1,0 +1,12 @@
+D:\Project Tutorial\VS6\HSBC.Deposits.Personnel.Vehicle\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+D:\Project Tutorial\VS6\HSBC.Deposits.Personnel.Vehicle\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+D:\Project Tutorial\VS6\HSBC.Deposits.Personnel.Vehicle\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+D:\Project Tutorial\VS6\HSBC.Deposits.Personnel.Vehicle\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+D:\Project Tutorial\VS6\HSBC.Deposits.Personnel.Vehicle\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+D:\Project Tutorial\VS6\HSBC.Deposits.Personnel.Vehicle\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+D:\Project Tutorial\VS6\HSBC.Deposits.Personnel.Vehicle\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+D:\Project Tutorial\VS6\HSBC.Deposits.Personnel.Vehicle\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+D:\Project Tutorial\VS6\HSBC.Deposits.Personnel.Vehicle\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+D:\Project Tutorial\VS6\HSBC.Deposits.Personnel.Vehicle\DataLayer\bin\Debug\netcoreapp3.1\Data.dll
+D:\Project Tutorial\VS6\HSBC.Deposits.Personnel.Vehicle\DataLayer\bin\Debug\netcoreapp3.1\Data.pdb
+D:\Project Tutorial\VS6\HSBC.Deposits.Personnel.Vehicle\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CopyComplete
