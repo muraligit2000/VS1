@@ -1,0 +1,1231 @@
+.Net Core, EF Core, Web API
+=============================
+ioc, uow, repository pattern
+
+repository
+aggregate
+
+Project Explanation
+=====================
+Technology stack
+Architecture & patterns
+Data access, DB connection
+Business objects
+Third party interfaces, APIs
+Exceptions & Logging 
+Unit test cases, coverage
+code security tools
+Build & deployment, DevOps
+Vulnerability issues, OWASP
+Login, Forgot/Reset Pwd. Authentication & Authorization
+Coarse grained/Fine grained API's
+
+Web api search parameters scenario
+
+Core
+OWASP
+
+jarwis
+app insights
+KQL
+
+Cross-Site scripting (XSS)
+Cross-Site Request Forgery (CSRF)
+
+Understand cloud concepts (15-20%)
+Understand core Azure services (30-35%)
+Understand security, privacy, compliance, and trust (25-30%)
+Understand Azure pricing and support (25-30%)
+
+what is a proxy server, reverse proxy
+
+Proxy server
+--------------
+a) To avoid state or institutional browsing restrictions 
+b) To block access to certain content
+c) To protect their identity online
+
+Reverse proxy (eg. NGINX)
+-------------------------
+A reverse proxy is a server that sits in front of one or more web servers, intercepting requests from clients.
+a) Load balancing 
+b) Protection from attacks 
+c) Global Server Load Balancing (GSLB)
+d) Caching
+e) SSL encryption
+f) Increased scalability and flexibility
+g) Compression of responses using some Zip softwares
+
+My name :  VENKATA MURALI KRISHNA VADDIPARTHI
+
+COMPANY NAME & ADDRESS : ValueLabs (UK) Limited
+79 College Rd, Harrow HA1 1BD
+
+MY POSTAL ADDRESS FOR SHIPPING :
+4, BUCK LANE, SALE, M33 5WE
+
+MOBILE NUMBER : 074488 42965
+
+EMAIL : MURALIGURU@GMAIL.COM
+
+
+DELL i7 - 16 GB RAM  - 512 GB SDD hard disk - 16" screen 
+price : 946 GBP
+
+Processor
+12th Gen Intel® Core™ i7-1260P (18 MB cache, 12 cores, 16 threads, up to 4.70 GHz Turbo)
+
+ 
+Operating System
+(Dell Technologies recommends Windows 11 Pro for business)
+Windows 11 Pro, English, Dutch, French, German, Italian
+
+ 
+Graphics Card
+Intel® Iris® Xe Graphics
+
+ 
+Display
+16.0-inch 16:10 FHD+ (1920 x 1200) Anti-Glare Non-Touch 250nits WVA Display with ComfortView Support
+
+ 
+Memory 
+16GB, 2x8GB, DDR4, 3200MHz
+
+ 
+Hard Drive
+512 GB, M.2, PCIe NVMe, SSD
+
+ 
+Choose your colour
+Titan Gray
+
+ 
+Microsoft Office
+No Microsoft Office License Included 30 day Trial Offer Only
+
+ 
+Security Software
+McAfee® Small Business Security 12-month subscription
+
+ 
+Support Services
+1Y Basic Onsite Service
+
+ 
+Accidental Damage Protection
+None
+
+ 
+Keyboard
+English UK Backlit Keyboard
+
+ 
+Ports
+2 USB 3.2 Gen 1 ports
+1 USB 3.2 Gen 2x2 Type-C® port with DisplayPort® and Power Delivery
+1 Headset jack
+1 HDMI 1.4 port
+1 power-adapter port
+1 RJ45 Ethernet port
+
+ 
+Slots
+1 SD-card slot
+1 wedge-shaped lock slot
+
+ 
+Dimensions & Weight
+Height (rear): 0.71 in. (17.95 mm)
+Height (peak): 0.72 in. (18.30 mm)
+Height (front): 0.62 in. (15.67 mm)
+
+Width: 14.05 in. (356.78 mm)
+Depth: 9.92 in. (251.90 mm)
+Weight (minimum): 4.21 lb (1.91 kg)
+
+ 
+Camera
+1080p at 30 fps FHD camera
+Dual-array microphones
+
+ 
+Audio and Speakers
+Stereo speakers with Waves MaxxAudio® Pro, 2 W x 2
+
+Inspiron systems are entry level personal/home use system designed for every day basic home computing needs, like email, web browsing, online transaction and banking, video streaming and light gaming.
+
+Vostro systems are built exclusively for Small Businesses. Each Vostro system offers the right features, services, durability, and resources to serve the special needs of a small business. A one-size-fits-all approach specially if you do have a dedicated IT staff, and have a small network.
+
+Latitude
+XPS
+Precision
+
+https://nanoreview.net/en/laptop-compare/hp-probook-450-g8-vs-dell-vostro-5620?m=c.7_d.2_r.1-and-c.2_r.2
+
+NGINX Plus
+As a software-based reverse proxy, not only is NGINX Plus less expensive than hardware-based solutions with similar capabilities, it can be deployed in the public cloud as well as in private data centers
+
+Difference between below 2
+A reverse proxy accepts a request from a client, forwards it to a server that can fulfill it, and returns the server’s response to the client.
+A load balancer distributes incoming client requests among a group of servers, in each case returning the response from the selected server to the appropriate client.
+
+
+progressive web app
+
+virtual ... override
+await   async  -- observer pattern
+
+LINQ
+=======
+Predicate delegate expression
+Dynamic queries
+extension methods
+pagination query
+take, skip
+outer join in Linq, DefaultIfEmpty()
+where, select, firstordefault(), Any
+IEnumerable, IQueryable
+Generics
+ToList, ToListAsync
+lambda expressions
+
+
+.Net Core
+===========
+Attribute routing
+LaunchSettings.json
+AppSettings.json
+Middleware (Use, Run, Map)  built-in middleware services
+Dependency Injection, IoC (Loosely coupled, extendable, testable)
+Constructor/Action injection
+service resolution mechanism
+([FromServices]ICourtBookingService)
+
+AddMvc, AddMvcCore
+inprocess (IISexpress), outofprocess hosting methods
+addScoped, addSingleTon, addTransient
+<AspNetCoreHostingModel>Inprocess</AspNetCoreHostingModel>
+exception handlers
+environment variables, github
+2 different versions for same api
+Kestrel - Cross platform webserver for asp.net core
+It's an internal & edge server (Internet facing webserver). 
+Hosting process is dotnet.exe
+external webserver can be IIS, Nginx, Apache
+
+IConfiguration, IServiceCollection, IServiceProvider
+Configuration sources ->  order of priority
+5) appsettings.json, 4) appsettings.development.json, 3) user secrets, 2) environment variable, 1) command-line arguments
+Manage user secrets -> Secrets.json 
+User secrets id (Guid)
+
+SQL Server
+==========
+A database view is a searchable object in a database that is defined by a query. Types of view in a database management system:
+A. Simple view
+B. Complex view 
+C. Readable view
+D. Force view 
+E. Materialized view
+F. Inline view
+
+SQL Profiler, execution plan, table scan
+Linked servers
+Cross database queries
+save Json in dB
+Group by, Having
+SQL Locks
+transactions .. Begin, Commit, Rollback, Savepoint
+Debug SP
+Input, Output parameters. How to execute SP from query analyzer
+Data migration, import/export
+Left/Right outer join. and condition on table column with NULL
+Arrays, Tabledata, XML, JSON as input to SP
+Optional parameters in SP
+
+A transaction in a database system must maintain Atomicity, Consistency, Isolation, and Durability - commonly known as ACID properties - in order to ensure accuracy, completeness, and data integrity.
+
+
+SELECT * FROM Table WITH(INDEX(Index_Name))
+SELECT * FROM table1 USE INDEX (col1_index,col2_index) WHERE col1=1 AND col2=2 AND col3=3;
+
+Primary key with float data type
+SQL Profiler
+Execution plan,  Table Scan
+@@Identity
+@@Trancount
+nested Transactions
+
+What is uniqueidentifier data type ?
+Varchar(max) is not allowed for primary key, unique
+Difference between varchar and nvarchar
+
+Solid principles - transactions
+Distributed transactions across multiple databases/stored procedures
+
+SOLID stands for 
+Single Responsibility Principle (SRP), 
+Open closed Principle (OSP), 
+Liskov substitution Principle (LSP), 
+Interface Segregation Principle (ISP), 
+Dependency Inversion Principle (DIP).  
+
+Restrict users to stored procedures
+How to use non-clustered index in the select statement
+
+collation
+=========
+CREATE DATABASE MyOptionsTest  COLLATE Latin1_General_100_CS_AS_SC;  
+SELECT name, description FROM sys.fn_helpcollations();  
+SELECT CONVERT (varchar(256), SERVERPROPERTY('collation'));  
+SQL_Latin1_General_CP1_CI_AS
+Latin1-General, case-insensitive, accent-sensitive, kanatype-insensitive, width-insensitive for Unicode Data, SQL Server Sort Order 52 on Code Page 1252 for non-Unicode Data
+
+EXECUTE sp_helpsort;  
+
+The disadvantages of indexes are as follows:
+===============================================
+They decrease performance on inserts, updates, and deletes.
+They take up space (this increases with the number of fields used and the length of the fields).
+Some databases will monocase values in fields that are indexed.
+
+Web API
+=========
+1) Authentication & Authorization
+
+2) 
+[Authorize(Users="Alice,Bob")]
+[Authorize(Roles = "Admins")]
+    public string GetHello_OnlyAdmins()
+    {
+        // only admins can call this
+    }
+
+ [AllowAnonymous]
+ public void PostSomething_Everybody()
+ {
+        // ...
+ }
+
+3) Response generated in JSON or XML format using MediaTypeFormatter
+
+4) CORS (Cross-Origin Resource Sharing)
+
+web api url     https://www.contoso.com
+web client url  https://www.example.com
+Because the two applications are hosted at different domains, an AJAX request from WebClient to WebService is a cross-origin request.
+
+public static void Register(HttpConfiguration config)
+{
+  // Modification
+  config.EnableCors();
+
+[EnableCors(origins: "http://client.domain", headers: "*", methods: "*")]
+public class SampleController : ApiController
+{
+}
+
+5) Alias name to a web method
+[HttpPost]
+[ActionName("SaveStudentInfo")]
+ public void UpdateStudent(Student aStudent)
+ {
+       StudentRepository.AddStudent(aStudent); 
+ }
+
+
+6) response xml or json
+
+Add the below code app_start event in global.asax file. In API Url add the query string:
+
+GlobalConfiguration.Configuration.Formatters.JsonFormatter.MediaTypeMappings.Add(
+    new QueryStringMapping("type", "json", new MediaTypeHeaderValue("application/json")));
+
+GlobalConfiguration.Configuration.Formatters.XmlFormatter.MediaTypeMappings.Add(
+    new QueryStringMapping("type", "xml", new MediaTypeHeaderValue("application/xml")));
+
+for xml : http://localhost:49533/api/?type=xml
+
+for json: http://localhost:49533/api/?type=json
+
+Advantages of Web API are:
+===========================
+OData
+Filters
+Content Negotiation
+Self-Hosting
+Routing
+Model Bindings
+
+MVC
+=========
+MVC Scaffolding - 
+What is default route in mvc	- URL: "{controller}/{action}/{id}"
+Attribute Routing 
+=================
+public class HomeController: Controller  
+{  
+    [Route("Users/about")]  
+    publicActionResultGotoAbout()  
+    {  
+        return View();  
+    }  
+}   
+
+routing table
+output caching - to improve performance. cache the content returned by any controller method. It gives huge advantages such as it reduces server round trips, reduces database server round trips, reduces network traffic, etc.
+bundling and minification in mvc 
+GET, POST action types
+Action filters - output cache, handle error, authorize
+
+HTTP Status codes
+401
+403
+400
+501
+200
+202
+
+difference between view and partial view
+=========================================
+View
+It contains the layout page.
+Before any view is rendered, viewstart page is rendered.
+View might have markup tags like body, html, head, title, meta etc.
+View is not lightweight as compare to Partial View.
+
+Partial View
+It does not contain the layout page.
+Partial view does not verify for a viewstart.cshtml.We cannot put common code for a partial view within the viewStart.cshtml.page.
+Partial view is designed specially to render within the view and just because of that it does not consist any mark up.
+We can pass a regular view to the RenderPartial method.
+
+
+
+
+[HttpGet]  
+OutputCache(Duration = 10)]  
+publicstringIndex()  
+{  
+    returnDateTime.Now.ToString("T");    
+}  
+
+  routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.MapRoute(
+               name: "Landing page",
+               url: "{LandingPage}",
+               defaults: new { controller = "LandingPage", action = "LoadLandingPage" });
+
+            routes.MapRoute(
+                name: "Default",
+                url: "{controller}/{action}/{id}",
+                //defaults: new { controller = "Home", action = "login", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Commonlogin", id = UrlParameter.Optional }
+            );
+           
+
+Entity Framework
+=================
+Bounded context, context map
+Repository pattern
+What is dbcontext - list of entities and context class which acts as a bridge between db and entity Classes
+Difference between entity and repository
+T4 templates
+POCO classes
+what is includes in EF
+how to call stored procedure from EF
+
+What are the different approaches supported in the Entity Framework to create Entity Model?
+=============================================================================
+Database First
+Model First
+Code First
+
+What are the ways we can load the related entities in Entity Framework?
+==================================================================
+Lazy Loading
+Eager Loading
+Explicit Loading
+
+
+Azure
+======
+AD to on-premise AD sync
+Service fabric SFC
+app services
+serverless functions
+Express route
+RDP, public IP address, Virtual machine scaleset, network security group(NSG)
+horz/vertical scaling
+availability sets, deployment slots
+Load balancer(public/internal,  basic/standard SKU, frond-end/back-end pools, public IP, 
+health probe, load balancing rules)
+powershell, cloudshell, azure CLI
+ARM templates, Terraform
+AAD B2C, oAuth, MFA, Azure keyvault
+Service principal, RBAC, Claims/policy based access, 
+Personal Access Tokens(PAT), Access Keys, SAS
+azure monitor, automation, DSC, Custom script extensions, app insights, kudu
+Event grid, event hub, APIM
+
+Web Apps, App Service Plan, storage accounts
+service bus, queues, topics, subscription listeners
+azure functions, Azure Durable Functions(ADF), web hooks
+web jobs
+Logic apps & connectors, ARM templates
+API Management, Application insights  
+cosmos DB
+Active Directory, Azure keyvault, access levels
+
+data analytics solutions, including Azure Synapse Analytics, Azure Databricks and Azure HDInsight.
+
+OKTA authentication.
+PKCE flow
+
+oops
+=====
+0) uses of private constructors - implementation of singleton. no instance can be created.
+1) static class with non-static private members
+2) Static vs Non-Static constructor
+3) Class Members can be methods, fields, properties, or events. 
+   A static class can contain only the static members while a non-static class can contain static members. 
+   Also, Static classes are by-default sealed so they cannot be inherited.
+4) What is the advantage of having static methods and variables in a non static class?
+   A non-static class can have both static and non-static members so that the static members apply to the class, whereas the non-static members apply to the instances of that class.  i.e. for utility methods or factory methods.
+5)  call a constructor of parent class in c#
+public class MyExceptionClass : Exception
+{
+    public MyExceptionClass(string message, string extrainfo) : base(message)
+    {
+        //other stuff here
+    }
+}
+
+6)
+Static Constructor
+===========================
+It can't be called directly.
+When it is executing then the user has no control.
+It does not take access modifiers or any parameters.
+It is called automatically to initialize the class before the first instance created.
+
+7) Attributes in c#
+
+[Obsolete]
+public void add(int a, int b)
+
+8) Generics, hashtable vs dictionary.  hash table with 1000 xml documents and searching.
+data table PK/FK in dataset.
+data table searching. rowfilter property
+
+9) Extension methods
+
+10) specifying different name to a class.  may be developers can use any of the class names.
+old implementations use old class name whereas new implementations need to use the updated class name.
+
+11) How to create instances for interfaces
+
+C# Generics FAQs
+====================
+interfaces inheritance
+type constraints
+co-variance
+contra variance
+
+public interface IReadRepository(out T)
+{
+  IEnumerable<T> GetAll();
+  T GetById(int id);
+}
+public interface IRepository(T) : IReadRepository<T> where T : IEntity
+{
+  void Add(T item);
+  void Remove(T item);
+  void save();
+}
+
+public class ListRepository<T> : IRepository(T) where T : IEntity
+{
+  public ListRepository()
+  {
+  }
+}
+public class SqlRepository<T> : IRepository(T) where T : class, IEntity
+{
+  public SqlRepository(DbContext dbContext)
+  {
+   // It's a parameterized constructor hence "class," type constraint is mandatory
+  }
+}
+When to use Attribute Routing
+The convention-based routing is complex to support certain URI patterns that are common in RESTful APIs. But by using attribute routing you can define these URI patterns very easily.
+
+For example, resources often contain child resources like Clients have orders, movies have actors, books have authors and so on. It’s natural to create URIs that reflects these relations like as: /clients/1/orders
+
+Route Prefixes
+Route Constraints
+Route Areas
+
+Azure service Bus
+==================
+1) Partitioning
+2) Sessions
+3) Duplicate detection
+4) Express entity
+
+
+ADO.NET
+=================
+1) Transaction of 2 stored procedures in DAL using ado.net
+2) Update database values via dataset
+3) Primary key, foreign key relationship in dataset
+    var keys = new DataColumn[1];
+    keys[0] = column;
+    table.PrimaryKey = keys;
+
+4) connection string for windows authentication to database via ado.net
+5) What is the role of Data providers in ADO.Net? MS SQL Server., OLEDB. , ODBC.
+6) 2^32 ie, 2 billion tables can be added to a dataset
+
+
+Azure Active Directory
+========================
+1) A directory is the Azure AD service. 
+2) Each directory has one or more domains. 
+3) A directory can have many subscriptions associated with it, but only one tenant.
+
+An Azure subscription has a trust relationship with Azure Active Directory (Azure AD). A subscription trusts Azure AD to authenticate users, services, and devices.
+
+Multiple subscriptions can trust the same Azure AD directory. Each subscription can only trust a single directory.
+
+4) 
+When a user signs up for a Microsoft cloud service(azure account), a new Azure AD tenant is created and the user is made a member of the Global Administrator role. 
+However, when an owner of a subscription joins their subscription to an existing tenant, the owner isn't assigned to the Global Administrator role.
+
+5)
+
+
+https://UAT-ProfileMgmt@dev.azure.com/UAT-ProfileMgmt/ProfileMgmt/_git/ProfileMgmt
+
+Laptop & other hardware
+Work station
+Softwares
+access to GitHub, RDP servers, Database, ATPI VPN, Azure, Jira , Jira service desk , SVN, 2019 licence, workchat
+VL email
+intranet web sites such as Helpmate, LMS
+SFTP credentials
+
+Software
+------------
+Visual Studio 2019
+Visual Studio 2013 prof
+Visual Studio 2017 prof (both required because of support to legacy applications)
+Visual Studio Code
+SQL Server 2014
+MS Office , Visio
+Tortoise GitHub
+Skype
+Outlook
+Postman
+Fiddler
+Soap UI
+Service Fabric SDK
+
+FileZilla
+CompareIT tool
+Typescript
+Node js
+Angular CLI
+cisco vpn
+
+
+1. Inactive process
+2. Physical Deletion process, Deleted Log tables
+3. Backup of the archives to some other server
+4. Display the history to users (Auditing purpose)
+5. Undo the changes
+
+
+https://www.youtu.be/voUhf0-LGko
+
+https://goo.gl/maps/N9urddaMXSUVX1JN8
+
+
+Production support for both the platforms
+Key issues of Digital services team
+
+Credit card validation - No. of characters restriction based on card type
+
+
+
+1) complete dec1 st chart
+2) week chart
+3) consolidated all apps chart
+
+
+service now
+Auth0
+Node.js
+flex grid, flex containers
+jest framework
+Microsoft test and feedback extension
+
+
+
+List of databases
+List of unit testing frameworks
+List of testing frameworks for UI, API, Performance
+List of security testing tools
+List of UI frameworks
+List of logging frameworks
+List of code analysis tools
+List of CI/CD tools
+List of version control
+List of Code coverage tools
+List of project management tools
+
+
+1) Api
+2) Application (This is like an orchestrator, No business logic exists here)
+3) Database   (DB Context, domain classes etc ...)
+4) Domain   ( all DTO's,  view models etc .. should go here)
+5) Persistence   (this is like our services layer - this layer is only for database CRUD operations & some database level validations)
+6) Common library for Utilities.  Here no database, eProfile related coding. just very generic coding like some common functions for date, conversion, string etc ...
+7) IoC  (Inversion of control) -- dummy layer. not much code or files here
+8) Infrastructure ---   I think this is like our 
+third party service calls, 
+GDS service bus connections, 
+email sending calls, 
+ROPC calls
+
+
+
+
+
+Green - New layers.    Blue - No changes to existing 
+
+1) Database Transactions - Unit of work (UoW)
+2) Efficient Logging & Tracing
+3) Authentication & Authorization
+4) Caching
+5) Single place configurations across solution
+6) Extendability, Redundant Code Prevention, Performance 
+7) Efficient inter microservice communication - ropc, grpc, queue
+8) DI, IoC
+
+
+https://github.com/nguyentrucxinh/AspNetCore-DDD/blob/dev/Src/DDD.Infra.CrossCutting.IoC/NativeInjectorBootStrapper.cs
+
+https://github.com/ernesen/DDD
+
+Invoice management system - 6 parts
+https://www.youtube.com/watch?v=03nVmrdvNQc&list=PLCD61PtQOOG0P2a4AK_xjHGB1m9Hi3quP
+
+
+ATPI.UniversalProfile.TravelHub.
+
+SFC
+API  -- Controller  -- ASP.Net Core Web Application
+Data -- DBContext, Domain models
+Utility -- Helper         --- .Net standard class library, .Net core class library
+Core -- DTO, Enum, ViewModel, Service Interface, Repository Interface
+IoC
+Repository -- LINQ coding
+Service -- UoW, Inter_MS_Comm(ropc), Messaging (SB), Blob storage
+UnitTests
+
+Fluent Validations, notifications, caching, Constants, Exceptions, Providers, Adapters, ActivityLog
+
+
+The service layer is a just another abstraction over repository class. Its primary purpose is to supports transactions on multiple repositories via UnitOfWork. 
+
+github
+========
+1) merge strategies - fast forward, 3-way, squash, back merge
+2) branching strategies
+3) gitignore
+4) pull requests (PR)
+5) feature/topic branches
+6) commit changes, push, resolve conflicts
+7) github integration with Jira - other communication tools
+8) Fork, public/private repos
+9) staged changes, stashing
+10)Approvals, Gates
+11)cherry picking
+12)
+
+service filters, authorization filters
+cmd guys
+reactJS
+Idt pro - lin facebook
+LB / appl gateway
+AD
+MS Test
+github
+
+
+Angular Interview Questions:
+====================================
+1) What are the different building blocks of an angular application?
+Ans: Modules, Services, components, Dependancy Injection, Routing
+
+2) What are the different types of binding available for an element
+Ans: property, event, two-way, attribute, class , style bindings
+
+3) Explain any 4 lifecycle events
+ans: ngOnChanges() , ngOnInit(), ngDoCheck(), ngAfterContentInit(), ngAfterContentChecked(), 
+ngAfterViewInit(), ngAfterViewChecked()	,ngOnDestroy()
+
+4) How the data can be shared between related components (parent & child)?
+Ans: @input decorator -> parent - child component
+@output,@Viewchild decorator -> child - parent component
+
+5) explain AOT compilation
+AOT compiler converts all HTML and TypeScript code into JavaScript code during build
+Advantages:
+Errors can be detected during the build phase only
+faster rendering in browser due to pre-compiled code
+
+6) how to register the application-level singleton service?
+Ans: using providedIn: 'root'
+@Injectable({
+  providedIn: 'root', // to inject the dependency in root.
+})
+
+7) What are the different ways to register a service?
+ans: module, component and application level
+
+8) Dependancy Injection in Angular
+9) Why do we use RxJs Library?
+10) Different RxJs operators?
+11) Observables in Angular?
+12) Difference between Promises and Observables, explain few scenarios to where to use?
+13) Use of subscribe method?
+14) How does routing work and use of routeguards?
+15) HTTP interceptor
+16) what is the debouncetime?
+17) How do we subscribe form value changes in components?
+18) What are behaviorsubject variables?
+19) Difference between ngIf and [hidden] attributes?
+Ans: ngIf is a structural directive, it creates/destroys content inside the DOM
+[hidden] just hides/shows the content with css, i.e. adding/removing display:none to the element's style
+20) Jasmine/Karma test cases - how mock data maintained and mock services are created
+21) storage mapper
+22) white source bolt,  code access security
+
+error logging
+EF Core ---> 
+ADO.NET
+
+github, jira, tfs - 4 years
+
+IMP - Invoice mgmt 
+COP - carbon footprint
+
+
+====================
+Azure AD B2C
+====================
+what is Azure AD, B2C ?
+User creation (CRUD operations) from portal 
+Standard/Custom User flows
+ROPC users 
+Change password flow with alternate email 
+B2C Tokens Creation, testing from portal, postman
+Custom user claims, Token validation/expiration
+RBAC, PBAC 
+Graph API for users CRUD operations 
+B2C UI changes
+Consuming from Angular
+using Refresh token 
+MFC, Conditional Access 
+.Net Core integration with KeyVault for B2C 
+Multiple language support 
+Social media connectors
+
+
+1. Azure AD creation, linking with subscription
+2. Azure AD Users creation in portal
+3. Custom user attributes creation
+3. Custom user flows. Base file, Extension file, policy file
+4. Custom UI web pages, azure storage 
+5. StartUp.cs settings - authorization (RBAC, Claims/policy based access)
+6. AppSettings.Json settings
+7. Controller action methods settings
+8. AD Users creation (CRUD operations) using Graph API
+9. Administration.Users table and relevant columns
+10.Reset password workflow, sending emails, alternate email, verification code etc ... 
+11.Switching between ATPI, Direct ATPI, Bon Voyage branded UI
+12.Multiple language support 
+13.ROPC token creation, validation
+14.Refresh token, PKCE extension
+15.
+16.
+17.
+18.
+19.
+20.
+
+Classic ASP
+=============
+0) Asp Objects
+	Request Object
+	Response Object
+	Server Object
+	Session Object
+	Application Object
+1) Deployment, web server
+2) Validations
+3) DOM objects 
+4) Popups, menus, context menus, 
+5) Calling backend services
+6) Query String Collection,  Form Collection
+7) Session management, application object
+8) Cliend side / server side script
+9) Dictionary, FileSystemObject , Text Stream 
+10)POST, GET
+11)Global.asa File
+12)
+Response.Write - Sends information directly to a browser.
+Response.Redirect - Directs a user to a URL other than the requested URL.
+Response.ContentType - Controls the type of content sent.
+Response.Cookies - Sets cookie values.
+Response.Buffer - To Buffer information.
+13)Request Object
+	Query string
+	Form
+	Cookies - How to delete a cookie
+	Server Variables 
+	Client Certificate.
+14)Event Handlers Of Application Object
+Application_OnStart- Fired when the first visitor hits the page.
+Application_OnEnd- Runs when the server is stopped.
+15)what is  Option Explicit
+16)DAO, ADO, RDO, ADO.Net, RDS, OLEDB, ODBC (system/file DSN)
+DAO - Data Access Objects. MS-Access, Jet database engine drivers
+ADO - ActiveX Data Objects.  ADO.NET 2.0
+RDO - Remote Data objects. RDO was meant for SQL Servers earlier versions.
+ODBC - developed for RDMS DBs.
+OLEDB - built on ODBC. for both Relational and non-relational DBs.
+        host ISAM/VSAM and hierarchical database, 
+        email and file system storage, 
+        text, graphics, and geographic data, 
+        as well as custom business objects.
+
+https://topic.alibabacloud.com/a/differences-between-ado-oledb-odbc-dao-and-font-classtopic-s-color00c1derdofont_8_8_32420432.html
+
+17)Default ScriptTimeOut for Server Object is 90sec
+18)
+    Set Connection = Server.CreateObject("ADODB.Connection")
+    Set Command = Server.CreateObject("ADODB.Command")
+    Set Recordset = Server.CreateObject("ADODB.Recordset")
+
+    Connection.Open "blah blah blah"
+    Command.CommandText = "blah blah blah"
+    Recordset.Open Command, Connection
+
+adoCon.Open "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" & Server.MapPath("guestbook.mdb")
+adoCon.Open "DSN=guestbook"
+
+
+19) SQL/HTML injection attacks
+20) Excel/Word import/export
+21) COM, DCOM, COM+ components
+22) 
+23)
+24)
+
+1) grid pagination
+2) how do you disable js/vbscript 
+3) editor, IDE, notepad, frontpage, edit+, visual source safe (vss), SVN
+4) asp page vs htm page
+5) default.asp page 
+6) <%=Time()%>
+7) software requirements for dev , server
+IIS server
+ISAPI filters
+HTTP handlers, modules, worker processes, MIME types
+
+8) life cycle events
+9) date functions. datepart
+10)comments in asp script. single quote
+11)URL routing, Load balancer
+12)vbscript compilation errors
+13)for, while loop syntax
+for x = 1 to 100 step 5
+  ----
+next
+
+x=1
+while x <= 100
+  ----
+  x=x+1
+wend
+
+14)
+ASP 1.0 was released in December 1996 as part of IIS 3.0
+ASP 2.0 was released in September 1997 as part of IIS 4.0
+ASP 3.0 was released in November 2000 as part of IIS 5.0
+
+end of life (EOL) for classic ASP is 2025.
+ASP was supported until 14 January 2020 on Windows 7.
+ASP is currently supported in all available versions of IIS.
+15)
+A Classic ASP application can contain security vulnerabilities that can open up the environment to security risks, but these would be flaws in the application and not Classic ASP/IIS.
+Classic ASP invokes dll - works in 32 bit OS but fails in 64 bit OS with IIS 7.5.
+
+need to follow best practices for better security
+
+16) How do I know if classic ASP is installed?
+
+In Control Panel, click Programs and Features, 
+and then click Turn Windows features on or off. 
+Expand Internet Information Services, 
+expand World Wide Web Services, 
+expand Application Development Features, 
+and then select ASP. 
+The ISAPI Extensions feature will be selected if it has not already been installed. 
+Click OK.
+
+17) form controls 
+<form method="POST" action="process.asp">
+   <input  type="text"  type="submit"
+
+Request.Form("")
+Request.QueryString("")
+
+
+
+COM, DCOM (Component Object Model)
+====================================
+1) InProc, OutProc
+2) Structs (user defined types UDTs)
+3) COM dll
+4) activex DLL
+5) RegSvr32
+6) proxy
+7)
+
+Azure SQL Database 
+	- Elastic Pool - General purpose - 4 vcore
+	- Diff between VCore, DTU's
+	- Always Encrypted
+	- Normalization
+	- Temporal feature, _History tables 
+	- Schemas, Indexes, Database Views, 
+	- Backup & Retention policies 
+	- Business Continuity Plan (BCP) & Disaster Recovery (DR)
+Microservices with SFC
+	- Cluster with multiple ports enabled
+	- Reverse Proxy http://localhost:8921
+	- Primary, Secondary nodes (VMSS SKU's)
+	- Cluster auto scaling enabled by cpu/memory usage statistics
+Azure AD B2C
+	- Custom user flows creation 
+	- TrustFrameworkBase.xml, extension file, policy file,   Technical Profiles
+	- Identity experience framework
+	- Self Service Password Reset (SSPR) 
+	- Multi Factor Authentication (MFA)
+	  Conditional Access  
+	- Principles of least privilege 
+	- Graph API's (ADAL, MSAL) CRUD operations 
+Authentication & Authorization
+	- Various grant types
+	- Implicit flow is dead, Try Authorization code with PKCE 
+	- Refresh token, Access token 
+	- JWT - Self contained access tokens, expiration, signing & validation, custom claims   
+	- Scope - openid, profile, offline_access
+	- Response types - code, id_token, token 
+	- HTTP status codes - 401 Unauthorized, 403 Forbidden
+	- RBAC, PBAC (policy/claims based) authorizations
+	- OIDC flows & end points(3) - authorization, redirection, token end points 
+	- Front channel communication - information delivered to the browser via URI or Form POST - authorization end point 
+	- Back channel communication - server to server communication - token end point
+	- Azure AD Connect 
+Azure Functions, ADF 
+	- Key vault integration with Functions
+	- Managed Identities (service principal, system-assigned MI, user assigned MI)
+	- Trigger types (http, timer, queue) 
+	- Queue trigger on Storage/ServiceBus Queues 
+	- Input/Output bindings
+	- App Configs 	
+	- Scale in/out 
+	- Consumption plan , App Service plan 
+	- Deploying from .Net core 
+	- Secure keys 
+	- Using WEBSITE_RUN_FROM_PACKAGE = 1 option in Config -> Appl Setting
+	- AzureWebJobsStorage -> UseDevelopmentStorage=true
+	- AzureServicesAuthConnectionString -> "RunAs=App;AppId=5e688eb7-5da7-413f-8e48-ab6f2ff5a27a;TenantId=0ec9fc85-4149-4b10-8f78-28346cf733b5;AppKey=r5x1ZGRm9vU.C_IJ5TR4-Dc3v~wvPla74w",
+
+Logic Apps
+	- SFTP, Azure SQL DB connectors 
+	- Parameter files 
+	- Invoked Azure functions 
+	- Integrated with App Insights
+Service Bus, Queues, Topics, Subscriptions
+	- Dead letters
+	- Service bus explorer
+	- Message duration 
+	- Duplicate detection 
+	- Message retention period
+Web Jobs 
+API Management, Swagger 
+	- SSL-Off loading
+	- Subscription keys 
+	- API Versioning concepts
+	- IP address white listing 
+	- Rates, quotas, limits
+	- Throttling by size
+	- Coarse/fine grained API's 
+.Net Core
+	- Middleware components
+	- Custom exception filters 
+	- Attribute routing (Context path based/host name based)  
+	- Dependancy Injection 
+	- AddSingleton, AddTransient, AddScoped - life times 
+	- Constructor/Action injection methods 
+	- AppSettings.json, Environment Variables  
+	- DB Contexts, Canada/Swiss dual contexts, reset connection string during run time, Scaffolding at the DB schema level,  
+	- Outer joins 
+	- IEnumerable, IQueryable
+	- ToListAsync(), async, await 
+	- Predicate delegate expression for Dynamic queries
+	- Extension methods for paging 
+	- Lambda expressions 
+	- Inversion of Control(IoC), Unit of Work (UoW)
+	- Repository pattern
+	- Environment Variables
+	- Types of configurations 
+	   5) appsettings.json, 4) appsettings.development.json, 3) user secrets, 2) environment variable, 1) command-line arguments
+DevOps CI/CD
+	- Build pipelines
+	- Release pipelines
+	- Approvals, Gates 
+	- Integration with SonarQube, WhitesourceBolt
+	- Integration with xUnit
+Exceptions & Logging
+	- App Insights
+	- Kusto Query Language(KQL), Kudu
+Version Controlling
+	- git, svn - PR, back/forward merge, branching, stashing, conflicts 
+    - Cherry pick	
+Unit testing frameworks
+	- xUnit methods
+	- Code coverage 
+Privacy by design, GDPR, Compliances, InfoSec, Data Loss Prevention,  
+Jira
+	- Sprint ceremonies(refinement, planning, retrospective)
+	- Burndown charts 
+	- Production support tickets resolution
+	- Tech Debts, Epics
+	- Acceptance Criteria, Definition of Done (DoD)
+	- Jira Query Language (JQL)
+Vulnerabilities
+	- Penetration testing 
+	- BurpSuite
+	- Cross-Site scripting (XSS), Cross-Site Request Forgery (CSRF), injection attacks, 
+	- Bruteforce, password spray attacks 
+	
+To be Learnt
+=============
+- Terraform
+- Kubernetes, AKS, ACR, Docker containers 
+- Python, powershell, Azure monitoring, Runbooks, 
+- Application gateways/Front door. 
+- Layer 4, Layer 7 load balancers 
+- Azure defender, Sentinel, Microsoft 365
+- Defense-in-depth strategies
+- Zero-trust methodologies - Trust no-one, verify everything
+
+
+1) Front end application flow is different. we are using Authorization code grand type with PKCE extension for this 
+2) We use custom user flows only for FE authentication & token generation 
+3) Back end application flow is different
+4) We are doing in the startup.cs file the token validation in BE 
+ //Validating the Token generated by AZURE AD B2C
+ services.AddAuthentication() 
+ //Required for Validating Token
+ app.UseAuthentication();
+4) Token generation for ROPC user flows, we have provided API end points. which TapTrip/Greywing guys are using
+5) Graph API (MSAL, ADAL) is used to do user account CRUD operations for AAD B2C 
+ 
+
+Data Engineer profiles
+=======================
+1. ADO.Net Azure Data Factory (ADF), SSIS packages, Data Migration, SSDT (Data Tools), TDE  
+2. Data lake storage Gen2, GPV2, 
+3. Azure SQL DB, Always Encrypted, Azure SQL Server Managed Instance
+4. CI/CD pipelines, GitHub
+5. vCore, DTU, DWUs, Azure elastic pool, 
+6. Azure blob storage
+7. Azure PaaS services - Functions, Logic Apps, ServiceBus, Push notifications using ,KeyVault, AppInsights, API Mgmt,
+
+
+
+
+==============
+SOAP vs REST
+==============
+1. Simple Object Access Protocol (SOAP) = HTTP + SSL + XML.
+   examples : .Net ASMX web services, WCF services etc ...
+2. REpresentational State Transfer (REST) supports both XML, JSON
+   example: .NET Web API methods (GET, POST, PUT, Delete)
+3. REST is faster than SOAP however 
+4. SOAP is a stateless protocol however REST can be stateful
+5. The size of the SOAP data packet is heavier with envelop contains header, body
+6. WSDL document is used to create proxie objects. however REST APIs can be called using their resource URLs
+
+
+ var msgresult = await (from thmsgMst in _DbContext.ThmessagesMaster
+                                               join ThMsgDtl in _DbContext.ThmessagesDetail on thmsgMst.Id equals ThMsgDtl.MstId
+                                               join ThMsgRead in _DbContext.ThmessagesReadBy.Where(r => r.UniqueProfileGuid == Guid.Parse(travelhubMessage.UniqueProfileGuid)) on ThMsgDtl.MstId equals ThMsgRead.MstId into ps
+                                               from thReadBy in ps.DefaultIfEmpty()
+                                               where ((thmsgMst.Category == "Corporate" && ThMsgDtl.DataGuid == UniqueCorporateGuid) ||
+                                               (thmsgMst.Category == "Application" && (
+                                               (string.IsNullOrWhiteSpace(thmsgMst.GdsAccessCodeAgent) && corporateApps.Contains((Guid)ThMsgDtl.DataGuid)) ||
+                                               (!string.IsNullOrWhiteSpace(thmsgMst.GdsAccessCodeAgent) && corporateApps.Contains((Guid)ThMsgDtl.DataGuid) && thmsgMst.GdsAccessCodeAgent == gdsAccessCodeAgent))))
+                                               && EF.Functions.DateDiffDay(thmsgMst.CreatedDate, DateTime.Now.Date) <= 90
+                                               select new THMessagesDTO()
+                                               {
+                                                   ID = thmsgMst.Id.ToString(),
+                                                   Title = thmsgMst.Title,
+                                                   DescriptionText = thmsgMst.DescriptionText,
+                                                   CreatedDate = Convert.ToString(thmsgMst.CreatedDate, dateFormat),
+                                                   MessageReadDate = Convert.ToString(thReadBy.MessageReadDate, dateFormat)
+                                               }).ToListAsync();
+
+
+
+
+
+  public async Task<TravelhubTileCaptionsDTO> GetTileCaptions(string LanguageCode, string Token, string CodeGroup)
+        {
+            var travelHubTileCaptions = new TravelhubTileCaptionsDTO();
+            var THTiles = new List<THTileCaption>();
+            try
+            {
+                var tiles = await _DbContext.ThtilesLanguageLookup.Where(x => x.LanguageCode == LanguageCode && x.CodeGroup == CodeGroup && !string.IsNullOrWhiteSpace(x.EnglishData)).ToListAsync();
+                if (tiles != null)
+                {
+                    foreach (var tile in tiles)
+                    {
+                        var THTileCap = new THTileCaption()
+                        {
+                            Tile_English = tile?.EnglishData,
+                            Tile_Other = tile.OtherLanguageData,
+                            Class_Property = tile.ClassProperty
+                        };
+                        THTiles.Add(THTileCap);
+                    }
+                    travelHubTileCaptions.TileCaptions = THTiles;
+                    travelHubTileCaptions.LanguageCode = LanguageCode;
+                }
+            }
+            catch (Exception Ex)
+            {
+                travelHubTileCaptions.ErrorMessage = Ex.Message;
+            }
+            return travelHubTileCaptions;
+        }
+
