@@ -7117,11 +7117,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project Tutorial\\NetCoreidtDemo\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj",
+      "projectUniqueName": "D:\\Project Tutorial\\VS6\\NetCoreidtDemo\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj",
       "projectName": "EmployeeAPI",
-      "projectPath": "D:\\Project Tutorial\\NetCoreidtDemo\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj",
+      "projectPath": "D:\\Project Tutorial\\VS6\\NetCoreidtDemo\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj",
       "packagesPath": "C:\\Users\\Murali\\.nuget\\packages\\",
-      "outputPath": "D:\\Project Tutorial\\NetCoreidtDemo\\EmployeeAPI\\EmployeeAPI\\obj\\",
+      "outputPath": "D:\\Project Tutorial\\VS6\\NetCoreidtDemo\\EmployeeAPI\\EmployeeAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Murali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7138,8 +7138,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Project Tutorial\\NetCoreidtDemo\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Project Tutorial\\NetCoreidtDemo\\Infrastructure\\Infrastructure.csproj"
+            "D:\\Project Tutorial\\VS6\\NetCoreidtDemo\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Project Tutorial\\VS6\\NetCoreidtDemo\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

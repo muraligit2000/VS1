@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iz3R+KnYgedSpzrwoQSs8PqY0iXjppazjUGkdBdCBfk/JRy8I5Pz1x8rpoWH3xmGsGKUAzv/n4CJvJurHMIiKA==",
+  "dgSpecHash": "cPXGsVPCjWsdrIiB2CtGBXNvnrQQkiP5BtAY1/NWitQyAkYA6dUT0mH/G/kU5PLRXXX+W6nKd/2Izub3bMdIeA==",
   "success": true,
-  "projectFilePath": "D:\\Project Tutorial\\NetCoreidtDemo\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj",
+  "projectFilePath": "D:\\Project Tutorial\\VS6\\NetCoreidtDemo\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Murali\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Murali\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

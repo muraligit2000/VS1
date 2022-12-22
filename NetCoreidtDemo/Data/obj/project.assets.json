@@ -6189,11 +6189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project Tutorial\\NetCoreidtDemo\\Data\\Data.csproj",
+      "projectUniqueName": "D:\\Project Tutorial\\VS6\\NetCoreidtDemo\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "D:\\Project Tutorial\\NetCoreidtDemo\\Data\\Data.csproj",
+      "projectPath": "D:\\Project Tutorial\\VS6\\NetCoreidtDemo\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\Murali\\.nuget\\packages\\",
-      "outputPath": "D:\\Project Tutorial\\NetCoreidtDemo\\Data\\obj\\",
+      "outputPath": "D:\\Project Tutorial\\VS6\\NetCoreidtDemo\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Murali\\AppData\\Roaming\\NuGet\\NuGet.Config",
