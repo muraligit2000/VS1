@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Data.domainModels;
 using DataLayer.BusinessModels;
+using System.ComponentModel.DataAnnotations;
 
 namespace HSBC.Deposits.Personnel.Vehicle.Controllers
 {
@@ -28,19 +29,30 @@ namespace HSBC.Deposits.Personnel.Vehicle.Controllers
             return StatusCode(StatusCodes.Status200OK, arrNames);
         }
 
-        [HttpPost, Route("save-employee")]
-        public async Task<IActionResult> SaveEmployee(int empno, string empname, string companyName)
-        {
-            var objEmployee = new EmployeeDTO()
-            {
-                CompanyId = companyName, //  "ABC Company",
-                 EmpNo = empno.ToString(), // "11",
-                 Empname = empname // "Murali V"
-            };
-            _empRepo.SaveEmloyee(objEmployee);
+        // 1 KB = 1024 Bytes
 
-            return StatusCode(StatusCodes.Status200OK, 
-                "Welcome " + empname + ", Your employee number = " + empno.ToString());
+        [HttpPost, Route("save-employee")]
+        [SwaggerResponse(400,"Bad Request", typeof(string))]
+        public async Task<IActionResult> SaveEmployee([Required]int empno, [Required, MaxLength(10, ErrorMessage = "Max length is 10")] string empname, 
+            [MaxLength(5, ErrorMessage = "Max length is 5")] string companyName, [EmailAddress]string BusinessEmail)
+        {
+            if (ModelState.IsValid)
+            {
+                var objEmployee = new EmployeeDTO()
+                {
+                    CompanyId = companyName, //  "ABC Company",
+                    EmpNo = empno.ToString(), // "11",
+                    Empname = empname // "Murali V"
+                };
+                await _empRepo.SaveEmloyee(objEmployee);
+
+                return StatusCode(StatusCodes.Status200OK,
+                    "Welcome " + empname + ", Your employee number = " + empno.ToString());
+            }
+            else
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, "Bad request to this API");
+            }
         }
 
         [HttpGet, Route("get-employees")]

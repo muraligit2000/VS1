@@ -103,6 +103,32 @@ namespace DataLayer
             //                             }
             //                             ).ToListAsync();
 
+
+            //var query = new class()
+            //{
+            //    languageCode = langcode,
+            //    Employees = _dbcontext.Emp.Where(z => z.Deptno == y.Key).Select(item1 =>
+            //                new
+            //                {
+            //                    // Name = item1.Ename,
+            //                    // empno = item1.Empno,
+            //                    dno = item1.Deptno
+            //                }).ToList()
+            //});
+
+
+            //var query = _dbcontext.Emp.GroupBy(x => x.Deptno).Select(y => new
+            //{
+            //    DeptNo = y.Key,
+            //    Employees = _dbcontext.Emp.Where(z => z.Deptno == y.Key).Select(item1 =>
+            //                new
+            //                {
+            //                    // Name = item1.Ename,
+            //                    // empno = item1.Empno,
+            //                    dno = item1.Deptno
+            //                }).ToList()
+            //}).ToList();
+
             try
             {
 
@@ -180,5 +206,10 @@ namespace DataLayer
 
 
         }
+
+
+
+      
+
     }
 }
